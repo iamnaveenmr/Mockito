@@ -21,7 +21,7 @@ import com.nalashaa.junitTest.service.IEmployeeService;
 @RequestMapping("/employee")
 public class EmployeeController {
 
-	private static final Logger logger = LogManager.getLogger(EmployeeTest.class.getName());
+	private static final Logger logger = LogManager.getLogger(EmployeeController.class.getName());
 
 	@Autowired
 	IEmployeeService employeeService;
